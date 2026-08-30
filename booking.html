@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>حجز موعد صيانة | الإنجاز لصيانة السيارات الألمانية</title>
+  <meta name="description" content="احجز موعد صيانة سيارتك الألمانية لدى مركز الإنجاز في أم الحمام الشرقي، الرياض، وأرسل تفاصيل الموعد مباشرة عبر واتساب.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="theme-color" content="#080A0C">
+  <link rel="canonical" href="https://bilalaljaddoua.github.io/ELENJAZ/booking.html">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ar_SA">
+  <meta property="og:site_name" content="الإنجاز لصيانة السيارات">
+  <meta property="og:title" content="احجز موعد صيانة سيارتك | الإنجاز">
+  <meta property="og:description" content="أدخل تفاصيل سيارتك والموعد المناسب، ثم أرسل الطلب مباشرة إلى الإنجاز عبر واتساب.">
+  <meta property="og:url" content="https://bilalaljaddoua.github.io/ELENJAZ/booking.html">
+  <meta property="og:image" content="https://bilalaljaddoua.github.io/ELENJAZ/assets/images/social/al-enjaz-social-preview.jpg">
+  <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/jpeg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://bilalaljaddoua.github.io/ELENJAZ/assets/images/social/al-enjaz-social-preview.jpg">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/social/favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/social/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/booking.css">
+</head>
+<body class="booking-page">
+  <div class="booking-ambient" aria-hidden="true"><i></i><i></i><span></span></div>
+  <header class="booking-header">
+    <a class="booking-logo" href="index.html" aria-label="العودة إلى الرئيسية"><img src="assets/images/social/ICON.png" alt="شعار الإنجاز" width="58" height="54"></a>
+    <a class="booking-back" href="index.html"><span aria-hidden="true">→</span> العودة إلى الرئيسية</a>
+    <a class="booking-call" href="tel:+966550759159"><span aria-hidden="true">☎</span> +966 55 075 9159</a>
+  </header>
+
+  <main class="booking-main">
+    <section class="booking-intro">
+      <p class="booking-kicker">AL ENJAZ / APPOINTMENT</p>
+      <h1>احجز صيانة سيارتك<br><em>بدون انتظار طويل.</em></h1>
+      <p>أدخل البيانات الأساسية، وسنجهز لك رسالة واضحة لإرسالها مباشرة عبر واتساب. الموعد يُعتمد بعد رد المركز.</p>
+      <div class="booking-points">
+        <div><b>01</b><span>بيانات التواصل</span></div>
+        <div><b>02</b><span>تفاصيل السيارة</span></div>
+        <div><b>03</b><span>الخدمة والموعد</span></div>
+      </div>
+      <aside>
+        <span>موقع المركز</span>
+        <strong>أم الحمام الشرقي، الرياض</strong>
+        <a class="booking-map" href="https://maps.app.goo.gl/58Ttafaar7ng9Sak6" target="_blank" rel="noopener">فتح الموقع على الخريطة ↗</a>
+      </aside>
+    </section>
+
+    <section class="booking-panel" aria-labelledby="bookingTitle">
+      <div class="booking-panel-head"><span>طلب موعد جديد</span><b>3 خطوات بسيطة</b></div>
+      <h2 id="bookingTitle">أخبرنا عن سيارتك</h2>
+      <p>الحقول المعلّمة بنجمة مطلوبة.</p>
+      <form id="bookingForm" class="standalone-booking-form">
+        <fieldset>
+          <legend><b>01</b> بيانات التواصل</legend>
+          <label><span>الاسم الكريم *</span><input name="name" required autocomplete="name" placeholder="اكتب اسمك"></label>
+          <label><span>رقم الجوال *</span><input name="phone" required inputmode="tel" autocomplete="tel" placeholder="05xxxxxxxx" pattern="[0-9+ ]{8,16}"></label>
+        </fieldset>
+        <fieldset>
+          <legend><b>02</b> تفاصيل السيارة</legend>
+          <label><span>الماركة *</span><select name="brand" id="brandSelect" required><option value="">اختر الماركة</option></select></label>
+          <label><span>الموديل *</span><input name="model" required placeholder="مثال: BMW 520i"></label>
+          <label><span>سنة الصنع</span><input name="year" inputmode="numeric" pattern="[0-9]{4}" maxlength="4" placeholder="2022"></label>
+          <label><span>رقم اللوحة أو الهيكل</span><input name="vehicleId" placeholder="اختياري"></label>
+        </fieldset>
+        <fieldset>
+          <legend><b>03</b> الخدمة والموعد</legend>
+          <label class="wide"><span>الخدمة المطلوبة *</span><select name="service" id="serviceSelect" required><option value="">اختر الخدمة</option></select></label>
+          <label><span>التاريخ المفضل</span><input type="date" name="date" id="bookingDate"></label>
+          <label><span>الوقت المفضل</span><input type="time" name="time"></label>
+          <label class="wide"><span>صف المشكلة أو طلبك</span><textarea name="issue" rows="4" placeholder="أخبرنا بالأعراض أو الصيانة المطلوبة..."></textarea></label>
+        </fieldset>
+        <label class="booking-consent"><input type="checkbox" required><span>أفهم أن إرسال الطلب لا يؤكد الموعد حتى يرد المركز عبر واتساب.</span></label>
+        <button class="booking-submit" type="submit"><span class="wa-symbol" aria-hidden="true">◉</span><span>إرسال طلب الحجز عبر واتساب<small>سيتم فتح واتساب برسالة جاهزة</small></span><b aria-hidden="true">←</b></button>
+        <p class="booking-note" id="formNote" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="booking-footer"><span>© <span id="yearNow"></span> الإنجاز لصيانة السيارات</span><a href="privacy.html">سياسة الخصوصية</a><span>Designed &amp; Developed by <a href="https://bilalaljaddoua.me/" target="_blank" rel="noopener">Bilal Aljaddoua ↗</a></span></footer>
+  <script src="js/data.js"></script>
+  <script src="js/booking.js"></script>
+</body>
+</html>
