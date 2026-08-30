@@ -1,5 +1,5 @@
 (function(){
- const D=window.BUSINESS_DATA,T=window.TRANSLATIONS; let lang=localStorage.getItem('alEnjazLang')||'ar',reviewTimer=null,reviewIndex=0;
+ const D=window.BUSINESS_DATA,T=window.TRANSLATIONS; T.ar.servicesTitle='خدمات متكاملة لسيارتك'; T.en.servicesTitle='Complete services for your car'; let lang=localStorage.getItem('alEnjazLang')||'ar',reviewTimer=null,reviewIndex=0;
  const $=(s,c=document)=>c.querySelector(s), $$=(s,c=document)=>[...c.querySelectorAll(s)];
  function tr(k){return T[lang][k]??k} function serviceName(s){return lang==='ar'?s.ar:s.en} function serviceDesc(s){return lang==='ar'?s.descAr:s.descEn}
  function whatsappUrl(message){return `https://wa.me/${D.phone.replace(/\D/g,'')}?text=${encodeURIComponent(message)}`}
