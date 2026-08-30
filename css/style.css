@@ -76,3 +76,7 @@ body{isolation:isolate}.ambient-bg{position:fixed;z-index:0;inset:-12vh -8vw;ove
 .header.scrolled .brand-image{width:48px;height:48px;min-width:48px}
 footer .brand-image{width:76px;height:76px;min-width:76px;align-self:start}
 @media(max-width:760px){.header .brand-image{width:50px;height:50px;min-width:50px}.header.scrolled .brand-image{width:44px;height:44px;min-width:44px}footer .brand-image{width:70px;height:70px;min-width:70px}}
+.header .brand-image,.header .brand-image img{width:58px!important;height:54px!important;max-width:58px!important;max-height:54px!important}
+.header.scrolled .brand-image,.header.scrolled .brand-image img{width:48px!important;height:45px!important;max-width:48px!important;max-height:45px!important}
+footer .brand-image img{width:76px!important;height:71px!important;max-width:76px!important;max-height:71px!important}
+@media(max-width:760px){.header .brand-image,.header .brand-image img{width:50px!important;height:47px!important;max-width:50px!important;max-height:47px!important}.header.scrolled .brand-image,.header.scrolled .brand-image img{width:44px!important;height:41px!important;max-width:44px!important;max-height:41px!important}footer .brand-image img{width:70px!important;height:66px!important;max-width:70px!important;max-height:66px!important}}
